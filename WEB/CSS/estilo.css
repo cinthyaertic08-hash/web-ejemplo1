@@ -1,0 +1,14 @@
+body{
+     background-color:#F9BDC5;
+}
+h1{
+       font-family: arial;
+       font-size: 45px; 
+       color:purple;
+}
+#lisa{
+       width: 249px;
+       height: 220;
+       border-radius: 50%;
+       border: 2px solid #A53372
+}
