@@ -1,47 +1,57 @@
 body{
-     background-color:#C8BD9C;
+     background-color:#E5DFCC;
 }
+
 h1{
        font-family: arial;
-       font-size: 45px; 
-       color:purple;
+       font-size: 80px; 
+       color:#4A7984;
        text-align: center;
 }
-#lisa{
-       width: 249px;
-       height: 220;
-       border-radius: 10%;
-       border: 2px solid #A53372
+h5{
+       font-family: arial;
+       font-size: 70px; 
+       color:#071A34;
+       text-aling: center;
+
 }
-h2, h3, p{
+#lisa2{
+       width: 200px;
+       height: 200px;
+       border-radius: 10%;
+       border: 2px solid #AFD3DC;
+}
+
+h2, h3, h5, p{
        text-align:center;
 }
 img{
     display: block;
     margin: 0 auto; 
-}
-#lisa{
-     width:240px;
-     height:300;
-     border-radius:20%
-     border: 2px solid #71A9B3
+
 }
 button{
      display:block;
      margin:0 auto;
-     background-color:purple;
-     padding: 15px 32px
+     background-color:white;
+     padding: 15px 32px;
 }
-#lisa:hover{
-  box-shadow: 0 0 2px 1px blue;
-  transform: scale(1.5);
+
+
+
+#tabla1 tr:hover {
+     background-color:#AFD3DC;
 }
- button:hover{
-  background-color:blue;
+#tabla1 {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
 }
- #tabla1 tr:hover {
-     background-color: yellow;
+table td, table th{
+    text-aling:center; 
 }
+
+
 .noticias {
  border: 5px ridge #0C0018;
  background-color: #D9D7DE;
@@ -171,4 +181,81 @@ a:hover {
 .navbar a:not(.cta-button):hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
+}
+.lugares {
+  
+padding: 40px;
+  
+text-align: center;
+}
+
+
+.contenedor-tarjetas {
+ 
+ display: flex;
+ 
+ justify-content: center;
+  
+gap: 20px;
+
+ flex-wrap: wrap;
+
+}
+
+
+.tarjeta {
+  
+width: 250px;
+ 
+ border-radius: 10px;
+
+ overflow: hidden;
+  
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  
+background-color: #fff;
+}
+
+.tarjeta img 
+{
+  width: 100%;
+ 
+ height: 160px;
+  
+object-fit: cover;
+
+}
+
+
+.tarjeta h3 {
+  margin: 10px;
+
+}
+
+
+.tarjeta p {
+  
+margin: 10px;
+  
+font-size: 14px;
+
+}
+
+
+.tarjeta a {
+  
+display: block;
+  
+margin: 10px;
+  
+padding: 8px;
+  
+background-color: #007BFF;
+  
+color: white;
+ 
+ text-decoration: none;
+  
+border-radius: 5px;
+
 }

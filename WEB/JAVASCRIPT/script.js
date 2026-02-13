@@ -3,7 +3,7 @@ const boton1=document.getElementById('lily');
 
 //Agregar un evento al boton
 boton1.addEventListener('click', function(){
-	alert("YEAHH");
+	alert("ESTATUA DE LA LIBERTAD");
 });
 function toggleMobileMenu() {
     const menu = document.getElementById("mobileMenu");

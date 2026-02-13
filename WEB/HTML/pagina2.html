@@ -5,28 +5,82 @@
    <title> mi pagina </title>
  </head>
  <body>
-    <h1> SUBTEMA </h1>
-    <h2> Ejemplos de lista ordenada </h2>
-   <ol> 
-       <li> Coraline </li>
-       <li> Avengers </li>
-   </ol>
-   <h2> Ejemplo lista no ordenada </h2>
-    <ul>
-      <li> Piña </li>
-      <li> Limones </li>
-    </ul>
-    <ul>
-      <li>
-          <a href="index.html">Inicio</a>
-      </li>
-      <li>
-          <a href="contacto.html"> Sobre mi </a>
-      </li>
-     </ul>
-   <div class="noticias">
-     <img id="imgDiv" src="../IMAGENES/foto1.jpg" width="500" height="500">
-     <p> El paisaje en un lugar </p>
+   <nav class="navbar">
+        <div class="menu-left">
+            <a href="pagina3.HTML">inicio</a>
+            <a href="pagina2.HTML">lugares</a>
+            <a href="SOBREMI.HTML">gastronomia</a>
+            <a href="MODA.HTML">moda</a>
+            <a href="musica.HTML">musica</a>
+        </div>
+        <div class="logo">
+            <img src="../IMAGENES/IMAGEN6.png" alt="Logo">
+        </div>
+        <div class="menu-right">
+            <a href="contacto.HTML" class="cta-button">Contact Us</a>
+            <div class="hamburger" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <div id="mobileMenu" class="mobile-menu">
+        <a href="#" class="closebtn" onclick="toggleMobileMenu()">&times;</a>
+        <a href="#">INICIO</a>
+        <a href="#">MENU</a>
+        <a href="#">SOBRE MI</a>
+        <a href="#" class="cta-button">Contact Us</a>
+    </div> 
+   <h1> LUGARES TURISTICOS </h1>
+   <h2> todo lo bonito por visitar
+
+ 
+  <div class="contenedor-tarjetas">
+
+    
+   <div class="tarjeta">
+      
+     <img src="IMAGEN14.jpg" alt="Estatua de la Libertad">
+      
+     <h3>Estatua de la Libertad</h3>
+      
+      <p>Uno de los monumentos más representativos de New York.</p>
+     
+     <a href="#">Ver más</a>
+   
    </div>
+
+    
+     <div class="tarjeta">
+        
+     <img src="IMAGEN15.jpg" alt="Central Park">
+      
+     <h3>Central Park</h3>
+      
+     <p>Un enorme parque urbano en el corazón de Manhattan.</p>
+       
+     <a href="#">Ver más</a>
+    
+    </div>
+
+   
+      <div class="tarjeta">
+     
+      <img src="IMAGEN16.jpg" alt="Times Square">
+      
+      <h3>Times Square</h3>
+     
+      <p>Famosa por sus pantallas gigantes y su ambiente vibrante.</p>
+     
+      <a href="#">Ver más</a>
+   
+     </div>
+
+ 
+   </div>
+</section>
+
+   
  </body>
 </html> 
